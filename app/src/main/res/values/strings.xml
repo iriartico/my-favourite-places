@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyFavoritePlaces</string>
+    <string name="facebook_application_id" translatable="false">529397832214472</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb529397832214472</string>
+</resources>
