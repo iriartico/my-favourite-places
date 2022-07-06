@@ -50,4 +50,24 @@
         tools:layout_editor_absoluteX="136dp"
         tools:layout_editor_absoluteY="533dp" />
 
+    <Button
+        android:id="@+id/btn_escribir_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#d0021b"
+        android:padding="8dp"
+        android:text="mensaje"
+        android:textColor="#fff"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:id="@+id/btn_base_datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base de Datos"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="435dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
