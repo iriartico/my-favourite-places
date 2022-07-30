@@ -6,15 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <!--    <Button-->
 <!--        android:id="@+id/btn_datos_usuario"-->
 <!--        android:layout_width="wrap_content"-->
@@ -34,9 +25,12 @@
         android:background="#d0021b"
         android:text="Cerrar sesión"
         android:textColor="#fff"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="241dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_datos_usuario"
@@ -46,9 +40,13 @@
         android:padding="8dp"
         android:text="Datos Usuario"
         android:textColor="#fff"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="533dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_escribir_db"
@@ -58,16 +56,23 @@
         android:padding="8dp"
         android:text="mensaje"
         android:textColor="#fff"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="124dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_base_datos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Base de Datos"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="435dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
